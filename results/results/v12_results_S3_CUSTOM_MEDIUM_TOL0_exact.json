@@ -1,0 +1,561 @@
+{
+  "scenario": 3,
+  "version": 7,
+  "complexity": {
+    "level": "CUSTOM",
+    "Z2_THRESHOLD": 0.25,
+    "Z3_THRESHOLD": 0.025,
+    "description": "Custom - Z2≤0.2500, Z3≤0.025000"
+  },
+  "timestamp": "2026-03-26T02:56:41.246494",
+  "run_config": {
+    "capacity_flexibility": false,
+    "flexibility_min_req": 3,
+    "z2_threshold": 0.25,
+    "z3_threshold": 0.025,
+    "run_label": "MEDIUM_TOL0_exact"
+  },
+  "constraint_thresholds": {
+    "Z2": 0.25,
+    "Z3": 0.025
+  },
+  "scenario_info": {
+    "personnel_count": 30,
+    "days": 21,
+    "num_shifts": 6,
+    "shift_durations": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "contract_hours": {
+      "P1": 40,
+      "P2": 36,
+      "P3": 38,
+      "P4": 38,
+      "P5": 42,
+      "P6": 40,
+      "P7": 42,
+      "P8": 36,
+      "P9": 40,
+      "P10": 36,
+      "P11": 38,
+      "P12": 40,
+      "P13": 36,
+      "P14": 36,
+      "P15": 40,
+      "P16": 40,
+      "P17": 38,
+      "P18": 40,
+      "P19": 42,
+      "P20": 36,
+      "P21": 42,
+      "P22": 40,
+      "P23": 40,
+      "P24": 36,
+      "P25": 42,
+      "P26": 40,
+      "P27": 36,
+      "P28": 36,
+      "P29": 42,
+      "P30": 40
+    }
+  },
+  "ga": {
+    "best_objectives": [
+      70.34703368526897,
+      0.0
+    ],
+    "best_constraints": [
+      0.24615384615384617,
+      0.00776155733870555
+    ],
+    "constraints_satisfied": [
+      true,
+      true
+    ],
+    "elapsed_time": 755.0571920871735,
+    "generations": 500,
+    "p_shift_final": 0.08,
+    "p_swap_final": 0.08,
+    "p_blockswap_final": 0.05,
+    "individual_satisfaction": {
+      "P1": 66.67,
+      "P2": 84.62,
+      "P3": 68.75,
+      "P4": 66.67,
+      "P5": 76.92,
+      "P6": 66.67,
+      "P7": 84.62,
+      "P8": 84.62,
+      "P9": 84.62,
+      "P10": 71.43,
+      "P11": 71.43,
+      "P12": 84.62,
+      "P13": 62.5,
+      "P14": 60.0,
+      "P15": 60.0,
+      "P16": 76.92,
+      "P17": 60.0,
+      "P18": 64.29,
+      "P19": 84.62,
+      "P20": 73.33,
+      "P21": 73.33,
+      "P22": 62.5,
+      "P23": 62.5,
+      "P24": 60.0,
+      "P25": 64.29,
+      "P26": 68.75,
+      "P27": 60.0,
+      "P28": 78.57,
+      "P29": 64.71,
+      "P30": 62.5
+    },
+    "working_hours": {
+      "P1": {
+        "assigned_shifts": 14,
+        "worked_hours": 56,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 46.67
+      },
+      "P2": {
+        "assigned_shifts": 13,
+        "worked_hours": 52,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 48.15
+      },
+      "P3": {
+        "assigned_shifts": 16,
+        "worked_hours": 64,
+        "contract_hours": 114.0,
+        "fulfillment_rate": 56.14
+      },
+      "P4": {
+        "assigned_shifts": 13,
+        "worked_hours": 52,
+        "contract_hours": 114.0,
+        "fulfillment_rate": 45.61
+      },
+      "P5": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 47.62
+      },
+      "P6": {
+        "assigned_shifts": 14,
+        "worked_hours": 56,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 46.67
+      },
+      "P7": {
+        "assigned_shifts": 13,
+        "worked_hours": 52,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 41.27
+      },
+      "P8": {
+        "assigned_shifts": 19,
+        "worked_hours": 76,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 70.37
+      },
+      "P9": {
+        "assigned_shifts": 13,
+        "worked_hours": 52,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 43.33
+      },
+      "P10": {
+        "assigned_shifts": 16,
+        "worked_hours": 64,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 59.26
+      },
+      "P11": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 114.0,
+        "fulfillment_rate": 52.63
+      },
+      "P12": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 50.0
+      },
+      "P13": {
+        "assigned_shifts": 18,
+        "worked_hours": 72,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 66.67
+      },
+      "P14": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 55.56
+      },
+      "P15": {
+        "assigned_shifts": 11,
+        "worked_hours": 44,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 36.67
+      },
+      "P16": {
+        "assigned_shifts": 12,
+        "worked_hours": 48,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 40.0
+      },
+      "P17": {
+        "assigned_shifts": 13,
+        "worked_hours": 52,
+        "contract_hours": 114.0,
+        "fulfillment_rate": 45.61
+      },
+      "P18": {
+        "assigned_shifts": 17,
+        "worked_hours": 68,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 56.67
+      },
+      "P19": {
+        "assigned_shifts": 13,
+        "worked_hours": 52,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 41.27
+      },
+      "P20": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 55.56
+      },
+      "P21": {
+        "assigned_shifts": 16,
+        "worked_hours": 64,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 50.79
+      },
+      "P22": {
+        "assigned_shifts": 12,
+        "worked_hours": 48,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 40.0
+      },
+      "P23": {
+        "assigned_shifts": 16,
+        "worked_hours": 64,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 53.33
+      },
+      "P24": {
+        "assigned_shifts": 11,
+        "worked_hours": 44,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 40.74
+      },
+      "P25": {
+        "assigned_shifts": 16,
+        "worked_hours": 64,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 50.79
+      },
+      "P26": {
+        "assigned_shifts": 13,
+        "worked_hours": 52,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 43.33
+      },
+      "P27": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 55.56
+      },
+      "P28": {
+        "assigned_shifts": 14,
+        "worked_hours": 56,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 51.85
+      },
+      "P29": {
+        "assigned_shifts": 13,
+        "worked_hours": 52,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 41.27
+      },
+      "P30": {
+        "assigned_shifts": 16,
+        "worked_hours": 64,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 53.33
+      }
+    }
+  },
+  "nsga3": {
+    "pareto_size": 1,
+    "pareto_objectives": [
+      [
+        70.23119119442653,
+        0.0
+      ]
+    ],
+    "constraint_values": [
+      {
+        "Z2": 0.23750000000000004,
+        "Z3": 0.0055204884814289154
+      }
+    ],
+    "elapsed_time": 1566.8237874507904,
+    "generations": 500,
+    "n_reference_points": 51,
+    "pareto_ranges": {
+      "Z1_min": 70.23119119442653,
+      "Z1_max": 70.23119119442653,
+      "Z4_min": 0.0,
+      "Z4_max": 0.0
+    },
+    "selected_solution": {
+      "method": "ideal_point_distance",
+      "Z1": 70.23119119442653,
+      "Z4": 0.0,
+      "Z2": 0.23750000000000004,
+      "Z3": 0.0055204884814289154,
+      "index": 0
+    },
+    "extreme_solutions": {
+      "max_Z1": {
+        "Z1": 70.23119119442653,
+        "Z4": 0.0,
+        "index": 0
+      },
+      "min_Z4": {
+        "Z1": 70.23119119442653,
+        "Z4": 0.0,
+        "index": 0
+      }
+    },
+    "p_shift_final": 0.08,
+    "p_swap_final": 0.08,
+    "p_blockswap_final": 0.05,
+    "individual_satisfaction": {
+      "P1": 66.67,
+      "P2": 76.92,
+      "P3": 68.75,
+      "P4": 66.67,
+      "P5": 76.92,
+      "P6": 80.0,
+      "P7": 76.92,
+      "P8": 76.92,
+      "P9": 76.92,
+      "P10": 78.57,
+      "P11": 71.43,
+      "P12": 76.92,
+      "P13": 62.5,
+      "P14": 66.67,
+      "P15": 60.0,
+      "P16": 76.92,
+      "P17": 73.33,
+      "P18": 78.57,
+      "P19": 76.92,
+      "P20": 80.0,
+      "P21": 60.0,
+      "P22": 68.75,
+      "P23": 56.25,
+      "P24": 66.67,
+      "P25": 71.43,
+      "P26": 56.25,
+      "P27": 66.67,
+      "P28": 71.43,
+      "P29": 64.71,
+      "P30": 56.25
+    },
+    "working_hours": {
+      "P1": {
+        "assigned_shifts": 12,
+        "worked_hours": 48,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 40.0
+      },
+      "P2": {
+        "assigned_shifts": 17,
+        "worked_hours": 68,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 62.96
+      },
+      "P3": {
+        "assigned_shifts": 17,
+        "worked_hours": 68,
+        "contract_hours": 114.0,
+        "fulfillment_rate": 59.65
+      },
+      "P4": {
+        "assigned_shifts": 14,
+        "worked_hours": 56,
+        "contract_hours": 114.0,
+        "fulfillment_rate": 49.12
+      },
+      "P5": {
+        "assigned_shifts": 17,
+        "worked_hours": 68,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 53.97
+      },
+      "P6": {
+        "assigned_shifts": 16,
+        "worked_hours": 64,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 53.33
+      },
+      "P7": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 47.62
+      },
+      "P8": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 55.56
+      },
+      "P9": {
+        "assigned_shifts": 14,
+        "worked_hours": 56,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 46.67
+      },
+      "P10": {
+        "assigned_shifts": 17,
+        "worked_hours": 68,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 62.96
+      },
+      "P11": {
+        "assigned_shifts": 12,
+        "worked_hours": 48,
+        "contract_hours": 114.0,
+        "fulfillment_rate": 42.11
+      },
+      "P12": {
+        "assigned_shifts": 14,
+        "worked_hours": 56,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 46.67
+      },
+      "P13": {
+        "assigned_shifts": 14,
+        "worked_hours": 56,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 51.85
+      },
+      "P14": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 55.56
+      },
+      "P15": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 50.0
+      },
+      "P16": {
+        "assigned_shifts": 14,
+        "worked_hours": 56,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 46.67
+      },
+      "P17": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 114.0,
+        "fulfillment_rate": 52.63
+      },
+      "P18": {
+        "assigned_shifts": 16,
+        "worked_hours": 64,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 53.33
+      },
+      "P19": {
+        "assigned_shifts": 13,
+        "worked_hours": 52,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 41.27
+      },
+      "P20": {
+        "assigned_shifts": 18,
+        "worked_hours": 72,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 66.67
+      },
+      "P21": {
+        "assigned_shifts": 12,
+        "worked_hours": 48,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 38.1
+      },
+      "P22": {
+        "assigned_shifts": 18,
+        "worked_hours": 72,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 60.0
+      },
+      "P23": {
+        "assigned_shifts": 15,
+        "worked_hours": 60,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 50.0
+      },
+      "P24": {
+        "assigned_shifts": 13,
+        "worked_hours": 52,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 48.15
+      },
+      "P25": {
+        "assigned_shifts": 12,
+        "worked_hours": 48,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 38.1
+      },
+      "P26": {
+        "assigned_shifts": 12,
+        "worked_hours": 48,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 40.0
+      },
+      "P27": {
+        "assigned_shifts": 12,
+        "worked_hours": 48,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 44.44
+      },
+      "P28": {
+        "assigned_shifts": 13,
+        "worked_hours": 52,
+        "contract_hours": 108.0,
+        "fulfillment_rate": 48.15
+      },
+      "P29": {
+        "assigned_shifts": 14,
+        "worked_hours": 56,
+        "contract_hours": 126.0,
+        "fulfillment_rate": 44.44
+      },
+      "P30": {
+        "assigned_shifts": 11,
+        "worked_hours": 44,
+        "contract_hours": 120.0,
+        "fulfillment_rate": 36.67
+      }
+    }
+  }
+}
