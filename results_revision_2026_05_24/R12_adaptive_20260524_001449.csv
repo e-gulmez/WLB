@@ -1,0 +1,13 @@
+scenario,level,tol1,mode,seed,Z1,Z2,phi,Delta,feasible,pshift_final,pswap_final,pbs_final,secs
+1,MEDIUM,True,adapt,42,71.61,0.0,0.2286,0.00789,True,0.08,0.08,0.05,439.1
+1,MEDIUM,True,adapt,7,71.71,0.0,0.25,0.010014,True,0.08,0.08,0.05,358.6
+1,MEDIUM,True,adapt,123,72.4,0.0,0.25,0.011002,True,0.08,0.08,0.05,333.3
+1,MEDIUM,True,fixed,42,72.26,0.0,0.25,0.010534,True,0.15,0.12,0.08,339.8
+1,MEDIUM,True,fixed,7,71.67,0.0,0.25,0.00885,True,0.15,0.12,0.08,338.7
+1,MEDIUM,True,fixed,123,72.26,0.0,0.25,0.009053,True,0.15,0.12,0.08,342.1
+1,EXTREME,True,adapt,42,67.76,4.0,0.0476,0.000359,True,0.08,0.08,0.05,371.8
+1,EXTREME,True,adapt,7,67.76,8.0,0.0476,0.000359,True,0.08,0.08,0.05,342.9
+1,EXTREME,True,adapt,123,67.81,5.0,0.0476,0.000392,True,0.08,0.08,0.05,343.5
+1,EXTREME,True,fixed,42,67.81,4.0,0.0476,0.000392,True,0.15,0.12,0.08,347.5
+1,EXTREME,True,fixed,7,67.76,5.0,0.0476,0.000359,True,0.15,0.12,0.08,349.5
+1,EXTREME,True,fixed,123,68.15,5.0,0.0476,0.000446,True,0.15,0.12,0.08,353.7
